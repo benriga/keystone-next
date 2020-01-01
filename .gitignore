@@ -1,0 +1,18 @@
+node_modules
+*.log
+
+### Nextjs files ###
+
+client/.next
+
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
