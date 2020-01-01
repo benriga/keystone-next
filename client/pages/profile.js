@@ -35,7 +35,8 @@ export default function Profile() {
   // if the user tries to open this page while still anon
   // then show them to the signin page
   // this mostly works but still shows /signin url 
-  // once they ar
+  // once they are logged in so need to fix that still
+  // borrowed the code for this from: https://sergiodxa.com/articles/redirects-in-next-the-good-way/
   React.useEffect(() => {
     if (isAuthenticated) {
       return; // do nothing if the user is logged in

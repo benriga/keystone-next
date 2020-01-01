@@ -1,9 +1,11 @@
 node_modules
 *.log
 
+### keystone production build files ###
+dist/*
+
 ### Nextjs files ###
 client/.next
-
 
 ### VisualStudioCode ###
 .vscode/*
